@@ -45,9 +45,9 @@ int soilmoisturepercent=0;
 
 
 //MariaDB settings
-IPAddress server_addr(192,168,50,109);  // IP of the MySQL *server* here
+IPAddress server_addr(xxx,xxx,xx,xxx);  // IP of the MySQL *server* here
 char user[] = "root";              // MySQL user login username
-char password[] = "Sheila27!";        // MySQL user login password
+char password[] = "xxxxxxxx";        // MySQL user login password
 
 // MariaDB query
 char INSERT_SQL[] = "INSERT INTO Soil.Measurements (soilpercentage,Sensorid) VALUES (%f,%d)";
