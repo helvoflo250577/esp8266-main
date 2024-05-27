@@ -57,8 +57,8 @@ char INSERT_SQL2[] = "INSERT INTO bme280.measurements (temp,druk,luchtvochtighei
 char query2[128];
 
 // WiFi settings
-char ssid[] = "Asus";         // your SSID
-char pass[] = "Sheila27!";     // your SSID Password
+char ssid[] = "xxxx";         // your SSID
+char pass[] = "xxxxxxxx!";     // your SSID Password
 WiFiClient client;                 // Use this for WiFi instead of EthernetClient
 MySQL_Connection conn(&client);
 MySQL_Cursor* cursor;
